@@ -7,6 +7,8 @@ name = "pypi"
 jupyterlab = "*"
 numpy = "*"
 scipy = "*"
+matplotlib = "*"
+pandas = "*"
 
 [dev-packages]
 
