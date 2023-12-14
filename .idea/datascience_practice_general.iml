@@ -5,7 +5,7 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.ipynb_checkpoints" />
       <excludeFolder url="file://$MODULE_DIR$/temporary" />
-      <excludeFolder url="file://$MODULE_DIR$/Statistics/.ipynb_checkpoints" />
+      <excludeFolder url="file://$MODULE_DIR$/2. Statistics/.ipynb_checkpoints" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
