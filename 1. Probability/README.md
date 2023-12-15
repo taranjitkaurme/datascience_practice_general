@@ -23,7 +23,25 @@ Probability is a measure of the likelihood that an event will occur. It is quant
 - **Event**: A set of outcomes of an experiment to which a probability is assigned. **Example:**  Getting heads 200 times out of 400 coin flips
 
 - **Expected Values**: The expected value is like the average outcome you'd predict if you could repeat an experiment many times. It’s what you’d “expect” to happen on average.
-For Categorical Value: E(A)= P(A) x n, where P(A) is probability of Event A occuing and n is the number of times trial is conducted
+For Categorical Value: E(X)= P(X) x n, where P(X) is probability of Event X occuing and n is the number of times trial is conducted
+Expected value for numeric variables: E(X)= Σ P(X)i x ni, i=1 to n
+
+- **Complements**: Complements are essentially the opposite of a given event. Denoted with an apostrophe, for example, A’ means “Not A”. Complements have specific properties:
+    - They cannot happen at the same time.
+    - Combined, they make up the entire set of possible outcomes.
+    - The sum of their probabilities is always 1 (P(A) + P(A’) = 1).
+    - The complement of a complement brings you back to the original event ((A’)’ = A).
+For instance, if event A is drawing a spade from a deck of cards (P(A) = 0.25), then A’ is the event of drawing any card other than a spade (clubs, diamonds, or hearts). The probability of A’ is 1 minus the probability of A, which makes P(A’) = 0.75.
+
+- **Probabilty Frequency Table**: A probability frequency table is a tool used in statistics to represent how often different outcomes occur in an experiment, and it also shows the probability of each of these outcomes. It's a simple way to visualize and understand the distribution of outcomes in a data set.
+  
+|Die Roll (Outcome) |	Frequency (Number of Times Rolled)|	Probability|
+|1 | 10 | 10/60|
+|2 | 9  |  9/60|
+|3 | 11 | 11/60|
+|4 | 10 | 10/60|
+|5 | 10 | 10/60|
+|6 | 10 | 10/60|
 
 ### Probability Models
 There are two main types:
