@@ -2,15 +2,28 @@
 
 Probability is a branch of mathematics that deals with the likelihood of different outcomes in various situations. It is used to quantify the chance of a particular event happening.
 
+if X, is the event,
+P(X)= Number of favorable outcomes/Total number of possible outcomes
+
+The basic formula for probability, P(X), is the ratio of the number of favorable outcomes to the total number of possible outcomes in the sample space. Here, favorable outcomes are those we are focusing on, and the sample space encompasses all conceivable outcomes. 
+
+ When two events don't influence each other, their joint probability is the product of their individual probabilities.
+
+ P(AB)=P(A)P(B), where A and B are independent
+ 
 ## Key Aspects of Probability
 
 ### Definition
 Probability is a measure of the likelihood that an event will occur. It is quantified as a number between 0 and 1, inclusive, where 0 indicates impossibility and 1 indicates certainty.
 
 ### Basic Concepts
-- **Experiment**: An action or process that leads to one of several possible outcomes.
-- **Outcome**: A possible result of an experiment.
-- **Event**: A set of outcomes of an experiment to which a probability is assigned.
+- **Trial**: Observing the event and recording the outcome. **Example:** Flipping a coin once and noting whether it lands on heads or tails.
+- **Experiment**: An action or process that leads to one of several possible outcomes. **Example:** Flipping a coin 400 times, with each flip being a trial.
+- **Outcome**: A possible result of an experiment. **Example:** Getting heads or tails on a single coin flip.
+- **Event**: A set of outcomes of an experiment to which a probability is assigned. **Example:**  Getting heads 200 times out of 400 coin flips
+
+- **Expected Values**: The expected value is like the average outcome you'd predict if you could repeat an experiment many times. It’s what you’d “expect” to happen on average.
+For Categorical Value: E(A)= P(A) x n, where P(A) is probability of Event A occuing and n is the number of times trial is conducted
 
 ### Probability Models
 There are two main types:
