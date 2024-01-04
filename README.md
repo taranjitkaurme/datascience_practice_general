@@ -33,7 +33,7 @@
 
 ## License & Acknowledgments
 
-- Licensed under Apache 
+-  Licensed under Apache 
 
 ---
 
